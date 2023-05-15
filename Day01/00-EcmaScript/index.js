@@ -55,4 +55,38 @@ console.log(doubled); // [2, 4, 6, 8]
 
 
 
+// ARRAY MAP
+const array1 = [1, 4, 9, 16];
+
+array1.map()
+//std function
+
+function(item,index,array)
+{
+return item;
+}
+
+//arrow function
+(item,index,array)=> item;
+
+
+
+//LOOP ONE
+item=1
+index=0
+array=[1, 4, 9, 16]
+
+//LOOP TWO
+item=4
+index=1
+array=[1, 4, 9, 16]
+
+//LOOP THREE
+item=9
+index=2
+array=[1, 4, 9, 16]
+
+
+
+
 
