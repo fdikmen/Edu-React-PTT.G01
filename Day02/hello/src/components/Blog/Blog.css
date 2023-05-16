@@ -1,0 +1,14 @@
+h1 {
+    color: red;
+    background-color: yellow;
+}
+
+.paragraph {
+    color: blue;
+    background-color: green;
+}
+
+#blog {
+    color: white;
+    background-color: black;
+}
