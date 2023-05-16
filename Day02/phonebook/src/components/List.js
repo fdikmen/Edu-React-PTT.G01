@@ -18,16 +18,27 @@ export class List extends Component {
   render() {
     // console.log("List Props=>", this.props)
     console.log("List State filterText=>", this.state.filterText)
+
+    const filteredContacts = this.props.contacts.filter(
+        contact => {
+            return contact.name.toLowerCase()
+                            .indexOf(this.state.filterText.toLowerCase()) !== -1
+                            ||
+                            contact.phone.toLowerCase()
+                            .indexOf(this.state.filterText.toLowerCase()) !== -1
+        }
+    )
+
     return (
-      <div>
+      <div className='ListComponent'>
         <input type="text" placeholder="Filter Contacts..." 
         value={this.state.filterText}
         onChange={this.onchangeFilterText}
         />
        <ul>
-              {this.props.contacts && this.props.contacts.map((contact, index) => (
+              {this.props.contacts && filteredContacts.map((contact, index) => (
                     <li key={index}>
-                        {contact.name} 
+                        <span>{contact.name}</span>
                         {contact.phone}</li>
                 ))}
        </ul>

@@ -11,7 +11,15 @@ export class Contact extends Component {
             {name: "Henry Johnson", phone: "333-333-3333"}
         ]
     }
+
+    addContact = (name, phone) => {
+        this.setState({
+            contacts: [...this.state.contacts, {name, phone}]
+        })
+    }
+
   render() {
+    
     return (
       <div>
         <List contacts={this.state.contacts} />
