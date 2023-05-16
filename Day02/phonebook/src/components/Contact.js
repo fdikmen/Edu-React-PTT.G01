@@ -9,13 +9,30 @@ export class Contact extends Component {
             {name: "John Doe", phone: "555-555-5555"},
             {name: "Karen Williams", phone: "444-444-4444"},
             {name: "Henry Johnson", phone: "333-333-3333"}
-        ]
+        ],
+        age: 30
     }
 
-    addContact = (name, phone) => {
+    addContact = (newContact) => {
         this.setState({
-            contacts: [...this.state.contacts, {name, phone}]
+            contacts: [...this.state.contacts, newContact]
         })
+
+        /*
+        const contacts = this.state.contacts;
+        const age = this.state.age;
+
+        {contacts, age} = this.state;
+        */
+
+        // Alernative way with PUSH
+        /*
+        const contacts = this.state.contacts;
+        contacts.push(newContact);
+        this.setState({
+            contacts // contacts: contacts
+        })
+        */
     }
 
   render() {
@@ -23,7 +40,7 @@ export class Contact extends Component {
     return (
       <div>
         <List contacts={this.state.contacts} />
-        <Form />
+        <Form addContact={this.addContact}/>
       </div>
     )
   }
