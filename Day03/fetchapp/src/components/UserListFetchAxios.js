@@ -2,8 +2,18 @@ import React, { Component } from 'react'
 import axios from 'axios';
 
 export default class UserListFetchAxios extends Component {
-    state = { users: [], loading: true };
+    state = { users: [], loading: true,count:0 };
     componentDidMount = () => {
+        setTimeout(() => {
+            //alert('Hello');
+        }, 3000);
+        
+        setInterval(() => {
+            console.log('Hello setInterval');
+            this.setState({count:this.state.count+1})
+        }, 4000);
+        
+        
         // CALL API
         /*
         fetch('https://jsonplaceholder.typicode.com/users')
@@ -39,6 +49,7 @@ export default class UserListFetchAxios extends Component {
 
         return (
             <>
+            count : {this.state.count}
                 User List Fetch Axios
 
                 {
