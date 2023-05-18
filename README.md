@@ -21,3 +21,5 @@ https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/
 // MOVIE APP = https://github.com/fdikmen/BA40FS_MERN/tree/main/Lesson14/movie-app
 
 // https://redux.js.org/tutorials/essentials/part-2-app-structure
+
+npx create-react-app redux-essentials-example --template redux
