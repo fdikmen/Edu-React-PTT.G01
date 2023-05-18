@@ -1,6 +1,7 @@
 # React-PTT
 Building Web Applications with React and Redux
 
+## LESSON NOTES
 // CREATE PROJECT
  npx create-react-app [projectName]
 
@@ -18,8 +19,18 @@ https://prod.liveshare.vsengsaas.visualstudio.com/join?B11E4DC1F34D29388ECB5B388
 // React Life Cycle Methods
 https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/
 
-// MOVIE APP = https://github.com/fdikmen/BA40FS_MERN/tree/main/Lesson14/movie-app
 
-// https://redux.js.org/tutorials/essentials/part-2-app-structure
+#### REDUX REACT TEMPLATE
+https://redux.js.org/tutorials/essentials/part-2-app-structure
 
+```node
 npx create-react-app redux-essentials-example --template redux
+```
+
+#### REDUX SAMPLE FOLDER STRUCTURE 
+
+https://medium.com/@fdikmen/a-redux-toolkit-project-structure-guide-58093baa88a5
+
+
+#### MOVIE APP CODES (PREVIOUS LESSONS)
+// MOVIE APP = https://github.com/fdikmen/BA40FS_MERN/tree/main/Lesson14/movie-app
