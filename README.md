@@ -19,3 +19,5 @@ https://prod.liveshare.vsengsaas.visualstudio.com/join?B11E4DC1F34D29388ECB5B388
 https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/
 
 // MOVIE APP = https://github.com/fdikmen/BA40FS_MERN/tree/main/Lesson14/movie-app
+
+// https://redux.js.org/tutorials/essentials/part-2-app-structure
