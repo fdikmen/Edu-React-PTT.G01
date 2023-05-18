@@ -13,7 +13,9 @@ Building Web Applications with React and Redux
 // Start => npm start
 
 Live Share (Only in class) 
-https://prod.liveshare.vsengsaas.visualstudio.com/join?F4FF74ADFC669D20982DBAF1423CD21AFFCA
+https://prod.liveshare.vsengsaas.visualstudio.com/join?B11E4DC1F34D29388ECB5B388B0A86C25924
 
 // React Life Cycle Methods
 https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/
+
+// MOVIE APP = https://github.com/fdikmen/BA40FS_MERN/tree/main/Lesson14/movie-app
