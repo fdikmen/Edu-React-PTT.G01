@@ -14,6 +14,7 @@ export default function RootRouter() {
       content='Welcome to Movie App!'
     />} />
     <Route path="/Add" element={<MovieAdd />} />
+    <Route path="/Edit/:movieId" element={<MovieAdd />} />
     <Route path="/List" element={<MovieList />} />
     <Route path="*" element={<Header as='h2'>404 Not Found</Header>} />
   </Routes>
