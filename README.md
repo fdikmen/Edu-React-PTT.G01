@@ -111,4 +111,4 @@ install redux & semanticUI
 5. NextJS
 6. NextJS Codes
 7. Tailwind (UI Framework) & Flowbite (UI Library) 
-8. Summary
+8. Overview
