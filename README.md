@@ -14,7 +14,7 @@ Building Web Applications with React and Redux
 // Start => npm start
 
 Live Share (Only in class) 
-https://prod.liveshare.vsengsaas.visualstudio.com/join?B11E4DC1F34D29388ECB5B388B0A86C25924
+https://prod.liveshare.vsengsaas.visualstudio.com/join?65DDCAB7703F0F94A0D138CD70A012BDA3EA
 
 // React Life Cycle Methods
 https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/
